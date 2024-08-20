@@ -39,9 +39,19 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/responsive.css",  
+                 
+              "src/styles.scss",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/jquery-3.0.0.min.js",
+             
+               "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -105,5 +115,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "714426c4-671d-4131-8e1c-658a74fe59df"
   }
 }
